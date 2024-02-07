@@ -98,6 +98,9 @@ header {
     display: flex;
     justify-content: center;
     align-items: center; }
+    #projet div:nth-child(3) img {
+      width: 25%;
+      height: auto; }
 
 #testimonials {
   background-image: url(../images/bkg-testimonial.jpg);
@@ -141,7 +144,7 @@ header {
       font-size: 1.5rem; }
 
 #services {
-  padding: 10px 200px; }
+  padding: 10px 15%; }
   #services > div {
     margin-left: auto;
     margin-right: auto;
@@ -150,77 +153,47 @@ header {
     justify-content: center;
     align-items: center;
     color: #4d4d4d; }
-    #services > div div:nth-child(1) h5 {
+    #services > div > div:nth-child(1) h5 {
       font-size: 2rem; }
-    #services > div div:nth-child(2) p {
+    #services > div > div:nth-child(2) p {
       font-size: 1rem; }
-    #services > div div:nth-child(3) {
+    #services > div > div:nth-child(3) {
       margin-top: 50px;
       display: flex;
       justify-content: center;
-      align-items: center; }
-      #services > div div:nth-child(3) div:nth-child(1) {
+      align-items: center;
+      gap: 30px; }
+      #services > div > div:nth-child(3) > div {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 10px;
         text-align: center; }
-        #services > div div:nth-child(3) div:nth-child(1) div:nth-child(1) {
+        #services > div > div:nth-child(3) > div > div:nth-child(1) {
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
           color: #f5a612; }
-          #services > div div:nth-child(3) div:nth-child(1) div:nth-child(1) svg {
+          #services > div > div:nth-child(3) > div > div:nth-child(1) .svg1 {
             width: 50px;
             color: #f5a612; }
-          #services > div div:nth-child(3) div:nth-child(1) div:nth-child(1) h6 {
+          #services > div > div:nth-child(3) > div > div:nth-child(1) .svg2 {
+            width: 50px;
+            color: #f53812; }
+          #services > div > div:nth-child(3) > div > div:nth-child(1) .svg3 {
+            width: 50px;
+            color: #f512b8; }
+          #services > div > div:nth-child(3) > div > div:nth-child(1) .text1 {
             font-size: 1.5rem;
             color: #f5a612; }
-        #services > div div:nth-child(3) div:nth-child(1) div:nth-child(2) p {
-          font-size: 1rem; }
-      #services > div div:nth-child(3) div:nth-child(2) {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin: 10px; }
-        #services > div div:nth-child(3) div:nth-child(2) div:nth-child(1) {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          color: #f55212; }
-          #services > div div:nth-child(3) div:nth-child(2) div:nth-child(1) svg {
-            width: 50px;
-            color: #f55212; }
-          #services > div div:nth-child(3) div:nth-child(2) div:nth-child(1) h6 {
+          #services > div > div:nth-child(3) > div > div:nth-child(1) .text2 {
             font-size: 1.5rem;
-            color: #f55212; }
-        #services > div div:nth-child(3) div:nth-child(2) div:nth-child(2) p {
-          font-size: 1rem; }
-      #services > div div:nth-child(3) div:nth-child(3) {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin: 10px; }
-        #services > div div:nth-child(3) div:nth-child(3) div:nth-child(1) {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          color: #e212f5; }
-          #services > div div:nth-child(3) div:nth-child(3) div:nth-child(1) svg {
-            width: 50px;
-            color: #e212f5; }
-          #services > div div:nth-child(3) div:nth-child(3) div:nth-child(1) h6 {
+            color: #f53812; }
+          #services > div > div:nth-child(3) > div > div:nth-child(1) .text3 {
             font-size: 1.5rem;
-            color: #e212f5; }
-        #services > div div:nth-child(3) div:nth-child(3) div:nth-child(2) p {
+            color: #f512b8; }
+        #services > div > div:nth-child(3) > div > div:nth-child(2) p {
           font-size: 1rem; }
 
 #blogs {
