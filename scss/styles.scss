@@ -422,7 +422,7 @@ header {
     >div:nth-child(4) {
         
         padding: 0 15%;
-        gap: 5px;
+      
         margin-top: 50px;
         display: block;
      
@@ -430,7 +430,7 @@ header {
       
         >div {
             width: 100%;
-
+            margin-bottom: 20px;
             background-color: darken($color: $white, $amount: 10);
             display: flex;
             flex-direction: column;
@@ -571,10 +571,12 @@ header {
 
             >div:nth-child(3) {
                 display: flex;
+                flex-direction: column;
                 justify-content: center;
                 align-items: center;
 
                 svg {
+                  
                     width: 20px;
                     color: lighten($black, 50%);
                 }
@@ -605,10 +607,11 @@ header {
             }
 
             input[type=text] {
+                
                 background-color: darken($white, 3);
                 border: 1px solid darken($white, 15);
                 height: 20px;
-                width: 50px;
+                width: 100px;
 
             }
         }
@@ -862,14 +865,16 @@ header {
     }
 
     div:nth-child(3) {
-        display: flex;
+        display: block;
         justify-content: center;
         align-items: center;
+        width: 100%;
 
         img {
-            width: 25%;
+            width: 100%;
             display: block;
             height: auto;
+            margin-bottom: 5px;
         }
     }
 }
@@ -1099,14 +1104,14 @@ header {
         padding: 0 15%;
         gap: 5px;
         margin-top: 50px;
-        display: flex;
+        display: block;
         justify-content: space-between;
         align-items: center;
         color: lighten($color: $black, $amount: 40);
       
         >div {
-            width: 130px;
-
+            width: 100%;
+            margin-bottom: 10px;
             background-color: darken($color: $white, $amount: 10);
             display: flex;
             flex-direction: column;
@@ -1114,7 +1119,8 @@ header {
             align-items: center;
 
             img {
-                width: 130px;
+                width: 100%;
+                
                 /* Adjust image styles as needed */
             }
 

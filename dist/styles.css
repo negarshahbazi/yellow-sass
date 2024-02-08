@@ -232,12 +232,12 @@ body {
         margin: 5px; }
     #blogs > div:nth-child(4) {
       padding: 0 15%;
-      gap: 5px;
       margin-top: 50px;
       display: block;
       color: #666666; }
       #blogs > div:nth-child(4) > div {
         width: 100%;
+        margin-bottom: 20px;
         background-color: #e6e6e6;
         display: flex;
         flex-direction: column;
@@ -328,6 +328,7 @@ body {
           color: gray; }
       #contact > div > div:nth-child(2) > div:nth-child(3) {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center; }
         #contact > div > div:nth-child(2) > div:nth-child(3) svg {
@@ -351,7 +352,7 @@ body {
           background-color: #f7f7f7;
           border: 1px solid #d9d9d9;
           height: 20px;
-          width: 50px; }
+          width: 100px; }
     #contact > div:nth-child(3) {
       margin-top: 30px; }
       #contact > div:nth-child(3) > div label {
@@ -496,13 +497,15 @@ body {
     #projet div:nth-child(2) p {
       font-size: 1rem; }
     #projet div:nth-child(3) {
-      display: flex;
+      display: block;
       justify-content: center;
-      align-items: center; }
+      align-items: center;
+      width: 100%; }
       #projet div:nth-child(3) img {
-        width: 25%;
+        width: 100%;
         display: block;
-        height: auto; }
+        height: auto;
+        margin-bottom: 5px; }
   #testimonials {
     background-image: url(../images/bkg-testimonial.jpg);
     background-size: cover;
@@ -634,19 +637,20 @@ body {
       padding: 0 15%;
       gap: 5px;
       margin-top: 50px;
-      display: flex;
+      display: block;
       justify-content: space-between;
       align-items: center;
       color: #666666; }
       #blogs > div:nth-child(4) > div {
-        width: 130px;
+        width: 100%;
+        margin-bottom: 10px;
         background-color: #e6e6e6;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center; }
         #blogs > div:nth-child(4) > div img {
-          width: 130px;
+          width: 100%;
           /* Adjust image styles as needed */ }
         #blogs > div:nth-child(4) > div h4 {
           font-size: 1rem;
